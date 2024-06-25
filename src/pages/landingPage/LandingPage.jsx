@@ -4,16 +4,17 @@ import ProjectsPage from "../projectsPage/ProjectsPage";
 import WorksPage from "../worksPage/WorksPage";
 import ClientsPage from "../clientsPage/ClientsPage";
 import StoryPage from "../storyPage/StoryPage";
+import { Container } from "./style";
 
 const LandingPage = () => {
   return (
-    <div>
+    <Container>
       <NavigationPage />
       <ProjectsPage />
       <WorksPage />
       <ClientsPage />
       <StoryPage />
-    </div>
+    </Container>
   );
 };
 

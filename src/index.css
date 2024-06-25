@@ -12,3 +12,8 @@
   font-family: "InterTightLight";
   src: url("../src/assets/fonts/InterTightLight.ttf") format("truetype");
 }
+
+html,
+body {
+  overflow-x: hidden;
+}

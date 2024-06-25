@@ -1,7 +1,8 @@
 import React from "react";
+import { Container } from "./style";
 
 const StoryPage = () => {
-  return <div>StoryPage</div>;
+  return <Container id="story">StoryPage</Container>;
 };
 
 export default StoryPage;

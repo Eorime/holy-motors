@@ -9,12 +9,10 @@ export const NavContainer = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   gap: 10px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
+  margin-top: 0px;
+  width: 100%;
   height: 1170px;
-  padding-left: 40px;
+  padding-left: 70px;
   padding-top: 70px;
   padding-bottom: 32px;
 `;
