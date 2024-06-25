@@ -3,7 +3,7 @@ import { keyframes } from "styled-components";
 
 const slide1 = keyframes`
   0% {
-    transform: translateX(0%);
+    transform: translateX(0);
   }
   100% {
     transform: translateX(-50%);
@@ -12,16 +12,14 @@ const slide1 = keyframes`
 
 const slide2 = keyframes`
   0% {
-    transform: translateX(0%);
+    transform: translateX(-50%);
   }
   100% {
-    transform: translateX(50%);
+    transform: translateX(0);
   }
 `;
 
 export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
   align-items: center;
   overflow: hidden;
   width: 100%;
@@ -31,17 +29,12 @@ export const Container = styled.div`
 export const ScrollContainer1 = styled.div`
   display: inline-block;
   margin-bottom: 70px;
-  margin-left: 150px;
   animation: ${slide1} 15s infinite linear;
-  animation-fill-mode: both;
 `;
 
 export const ScrollContainer2 = styled.div`
   display: inline-block;
-  margin-left: 320px;
-  margin-right: 200px;
   animation: ${slide2} 15s infinite linear;
-  animation-fill-mode: both;
 `;
 
 export const ClientLogo = styled.img`

@@ -74,18 +74,22 @@ const InfiniteSlide = () => {
   ];
 
   return (
-    <Container>
-      <ScrollContainer1>
-        {logos1.map((logo, index) => (
-          <ClientLogo src={logo} key={index} />
-        ))}
-      </ScrollContainer1>
-      <ScrollContainer2>
-        {logos2.map((logo, index) => (
-          <ClientLogo src={logo} key={index} />
-        ))}
-      </ScrollContainer2>
-    </Container>
+    <>
+      <Container>
+        <ScrollContainer1>
+          {logos1.map((logo, index) => (
+            <ClientLogo src={logo} key={index} />
+          ))}
+        </ScrollContainer1>
+      </Container>
+      <Container>
+        <ScrollContainer2>
+          {logos2.map((logo, index) => (
+            <ClientLogo src={logo} key={index} />
+          ))}
+        </ScrollContainer2>
+      </Container>
+    </>
   );
 };
 
