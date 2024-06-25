@@ -1,8 +1,12 @@
 import React from "react";
-import { Container } from "./style";
+import { Container, WorksContainer } from "./style";
 
 const WorksPage = () => {
-  return <Container id="works">WorksPage</Container>;
+  return (
+    <Container id="works">
+      <WorksContainer></WorksContainer>
+    </Container>
+  );
 };
 
 export default WorksPage;

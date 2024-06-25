@@ -1,8 +1,12 @@
 import React from "react";
-import { Container } from "./style";
+import { ClientsContainer, Container } from "./style";
 
 const ClientsPage = () => {
-  return <Container id="clients">ClientsPage</Container>;
+  return (
+    <Container id="clients">
+      <ClientsContainer></ClientsContainer>
+    </Container>
+  );
 };
 
 export default ClientsPage;

@@ -1,8 +1,12 @@
 import React from "react";
-import { Container } from "./style";
+import { Container, StoryContainer } from "./style";
 
 const StoryPage = () => {
-  return <Container id="story">StoryPage</Container>;
+  return (
+    <Container id="story">
+      <StoryContainer></StoryContainer>
+    </Container>
+  );
 };
 
 export default StoryPage;

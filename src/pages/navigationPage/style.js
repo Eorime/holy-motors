@@ -10,7 +10,6 @@ export const NavContainer = styled.div`
   justify-content: flex-start;
   gap: 10px;
   margin-top: 0px;
-  width: 100%;
   height: 1170px;
   padding-left: 70px;
   padding-top: 70px;
