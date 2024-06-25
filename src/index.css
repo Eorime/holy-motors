@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Mango";
+  src: url("../src/assets/fonts/MangoGrotesqueBold.ttf");
+}
+
+@font-face {
+  font-family: "InterTightSemiBold";
+  src: url("../src/assets/fonts/InterTightSemiBold.ttf");
+}
+
+@font-face {
+  font-family: "InterTightLight";
+  src: url("../src/assets/fonts/InterTightLight.ttf");
+}
