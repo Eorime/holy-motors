@@ -1,6 +1,6 @@
 import React from "react";
 import { ClientsContainer, ClientsHeader, Container } from "./style";
-import InfiniteScroll from "../../components/clientsComponents/infiniteScroll/InfiniteScroll";
+import InfiniteScroll from "../../components/clientsComponents/infiniteScroll/InfiniteSlide";
 
 const ClientsPage = () => {
   return (

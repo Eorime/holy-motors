@@ -18,27 +18,75 @@ import HBO from "../../../assets/images/clientLogos/client-10.png";
 import Hulu from "../../../assets/images/clientLogos/client-11.png";
 import Ubisoft from "../../../assets/images/clientLogos/client-12.png";
 
-const InfiniteScroll = () => {
+const InfiniteSlide = () => {
+  const logos1 = [
+    WB,
+    Netflix,
+    Aviacom,
+    Neon,
+    AppleTV,
+    A24,
+    WB,
+    Netflix,
+    Aviacom,
+    Neon,
+    AppleTV,
+    A24,
+    WB,
+    Netflix,
+    Aviacom,
+    Neon,
+    AppleTV,
+    A24,
+    WB,
+    Netflix,
+    Aviacom,
+    Neon,
+    AppleTV,
+    A24,
+  ];
+
+  const logos2 = [
+    Universal,
+    Sony,
+    PrimeVideo,
+    HBO,
+    Hulu,
+    Ubisoft,
+    Universal,
+    Sony,
+    PrimeVideo,
+    HBO,
+    Hulu,
+    Ubisoft,
+    Universal,
+    Sony,
+    PrimeVideo,
+    HBO,
+    Hulu,
+    Ubisoft,
+    Universal,
+    Sony,
+    PrimeVideo,
+    HBO,
+    Hulu,
+    Ubisoft,
+  ];
+
   return (
     <Container>
       <ScrollContainer1>
-        <ClientLogo src={WB} />
-        <ClientLogo src={Netflix} />
-        <ClientLogo src={Aviacom} />
-        <ClientLogo src={Neon} />
-        <ClientLogo src={AppleTV} />
-        <ClientLogo src={A24} />
+        {logos1.map((logo, index) => (
+          <ClientLogo src={logo} key={index} />
+        ))}
       </ScrollContainer1>
       <ScrollContainer2>
-        <ClientLogo src={Universal} />
-        <ClientLogo src={Sony} />
-        <ClientLogo src={PrimeVideo} />
-        <ClientLogo src={HBO} />
-        <ClientLogo src={Hulu} />
-        <ClientLogo src={Ubisoft} />
+        {logos2.map((logo, index) => (
+          <ClientLogo src={logo} key={index} />
+        ))}
       </ScrollContainer2>
     </Container>
   );
 };
 
-export default InfiniteScroll;
+export default InfiniteSlide;

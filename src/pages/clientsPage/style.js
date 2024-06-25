@@ -15,6 +15,7 @@ export const ClientsHeader = styled.h1`
   font-size: 230px;
   color: #ffffff;
   margin-top: 186px;
+  margin-bottom: 110px;
 `;
 
 export const ClientLogo = styled.img`
