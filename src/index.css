@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Mango";
-  src: url("../src/assets/fonts/MangoGrotesqueBold.ttf");
+  src: url("../src/assets/fonts/MangoGrotesqueBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "InterTightSemiBold";
-  src: url("../src/assets/fonts/InterTightSemiBold.ttf");
+  src: url("../src/assets/fonts/InterTightSemiBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "InterTightLight";
-  src: url("../src/assets/fonts/InterTightLight.ttf");
+  src: url("../src/assets/fonts/InterTightLight.ttf") format("truetype");
 }
