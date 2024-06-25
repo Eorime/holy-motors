@@ -4,7 +4,7 @@ export const Container = styled.div``;
 
 export const ClientsContainer = styled.div`
   background-color: #000000;
-  height: 1000px;
+  height: 1050px;
   display: flex;
   flex-direction: column;
   align-items: center;
