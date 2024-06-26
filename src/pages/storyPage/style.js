@@ -9,5 +9,5 @@ export const StoryContainer = styled.div`
   background-position: center;
   height: 1120px;
   background-position: calc(50% - 30px) calc(50% + 10px);
-  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
 `;

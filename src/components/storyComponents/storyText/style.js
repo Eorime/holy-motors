@@ -9,7 +9,7 @@ export const StoryMainContainer = styled.div`
   align-items: center;
   margin-bottom: 60px;
   padding-top: 65px;
-  gap: 42px;
+  gap: 45px;
 `;
 
 export const StoryLeftContainer = styled.div`
