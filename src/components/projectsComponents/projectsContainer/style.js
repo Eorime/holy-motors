@@ -5,7 +5,7 @@ export const Container = styled.div``;
 export const MainContainer = styled.div`
   display: flex;
   flex-direction: row;
-  padding: 100px 40px;
+  padding: 80px 40px;
   justify-content: center;
   gap: 40px;
 `;
@@ -21,6 +21,8 @@ export const ProjectsHeader = styled.h1`
   font-size: 44px;
   color: #d9d9d9;
   line-height: 130%;
+  margin-bottom: 180px;
+  margin-top: 0;
 `;
 
 export const ProjectsParagraph = styled.p`
@@ -34,25 +36,24 @@ export const ProjectsParagraph = styled.p`
 
 export const ProjectsSliderContainer = styled.div`
   position: relative;
-  max-width: 800px;
-  width: 100%;
+  width: 800px;
+  height: 800px;
 `;
 
 export const ProjectsSliderImage = styled.img`
   width: 100%;
-  height: auto;
-  border-radius: 8px;
-  max-height: 800px;
+  height: 100%;
+  margin: 0;
 `;
 
 export const ProjectsSliderNameContainer = styled.div`
   background-color: #000000;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 30px;
-  display: inline-block;
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: -30px;
+  right: -2px;
+  display: inline-block;
 `;
 
 export const ProjectsSliderName = styled.h1`
@@ -60,4 +61,5 @@ export const ProjectsSliderName = styled.h1`
   font-size: 110px;
   color: #d9d9d9;
   margin: 0;
+  padding: 0;
 `;

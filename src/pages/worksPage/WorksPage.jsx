@@ -1,10 +1,13 @@
 import React from "react";
-import { Container, WorksContainer } from "./style";
+import { Container, WorksContainerStyle } from "./style";
+import WorksContainer from "../../components/worksComponents/WorksContainer";
 
 const WorksPage = () => {
   return (
     <Container id="works">
-      <WorksContainer></WorksContainer>
+      <WorksContainerStyle>
+        <WorksContainer />
+      </WorksContainerStyle>
     </Container>
   );
 };

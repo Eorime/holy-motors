@@ -13,7 +13,7 @@ import {
 import { projectsData } from "../../../data/projectsData";
 
 const ProjectsContainer = () => {
-  const [firstProject] = projectsData;
+  const firstProject = projectsData[0];
 
   return (
     <Container>
