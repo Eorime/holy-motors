@@ -1,10 +1,13 @@
 import React from "react";
-import { Container, ProjectsContainer } from "./style";
+import { Container, ProjectsContainerStyle } from "./style";
+import ProjectsContainer from "../../components/projectsComponents/projectsContainer/ProjectsContainer";
 
 const ProjectsPage = () => {
   return (
     <Container>
-      <ProjectsContainer id="projects"></ProjectsContainer>
+      <ProjectsContainerStyle id="projects">
+        <ProjectsContainer />
+      </ProjectsContainerStyle>
     </Container>
   );
 };
