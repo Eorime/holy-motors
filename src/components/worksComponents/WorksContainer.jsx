@@ -14,7 +14,7 @@ import {
 import { worksData } from "../../data/worksData";
 
 const WorksContainer = () => {
-  const work = worksData[3];
+  const work = worksData[0];
 
   return (
     <Container>

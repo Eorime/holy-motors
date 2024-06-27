@@ -8,6 +8,10 @@ export const ClientsContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (max-width: 1024px) {
+    height: 640px;
+  }
 `;
 
 export const ClientsHeader = styled.h1`
@@ -16,8 +20,10 @@ export const ClientsHeader = styled.h1`
   color: #ffffff;
   margin-top: 186px;
   margin-bottom: 110px;
-`;
 
-export const ClientLogo = styled.img`
-  width: 180px;
+  @media screen and (max-width: 1024px) {
+    font-size: 135px;
+    margin-top: 94px;
+    margin-bottom: 70px;
+  }
 `;

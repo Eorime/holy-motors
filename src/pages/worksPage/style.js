@@ -5,4 +5,8 @@ export const Container = styled.div``;
 export const WorksContainerStyle = styled.div`
   background-color: #ff0000;
   height: 1000px;
+
+  @media screen and (max-width: 1024px) {
+    height: 597px;
+  }
 `;

@@ -8,6 +8,10 @@ export const MainContainer = styled.div`
   padding: 80px 40px;
   justify-content: center;
   gap: 40px;
+
+  @media screen and (max-width: 1024px) {
+    padding: 40px 20px;
+  }
 `;
 
 export const ProjectsTextContainer = styled.div`
@@ -23,6 +27,12 @@ export const ProjectsHeader = styled.h1`
   line-height: 130%;
   margin-bottom: 180px;
   margin-top: 0;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 32px;
+    max-width: 483px;
+    margin-bottom: 20px;
+  }
 `;
 
 export const ProjectsParagraph = styled.p`
@@ -32,12 +42,23 @@ export const ProjectsParagraph = styled.p`
   font-size: 38px;
   line-height: 140%;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 24px;
+    max-width: 483px;
+    margin-bottom: 25px;
+  }
 `;
 
 export const ProjectsSliderContainer = styled.div`
   position: relative;
   width: 800px;
   height: 800px;
+
+  @media screen and (max-width: 1024px) {
+    width: 481px;
+    height: 517px;
+  }
 `;
 
 export const ProjectsSliderImage = styled.img`
@@ -54,6 +75,12 @@ export const ProjectsSliderNameContainer = styled.div`
   bottom: -30px;
   right: -2px;
   display: inline-block;
+
+  @media screen and (max-width: 1024px) {
+    bottom: -17px;
+    padding-left: 18px;
+    padding-top: 15px;
+  }
 `;
 
 export const ProjectsSliderName = styled.h1`
@@ -62,4 +89,8 @@ export const ProjectsSliderName = styled.h1`
   color: #d9d9d9;
   margin: 0;
   padding: 0;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 60px;
+  }
 `;

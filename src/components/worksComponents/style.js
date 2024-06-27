@@ -5,6 +5,10 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   padding: 100px 40px;
+
+  @media screen and (max-width: 1024px) {
+    padding: 60px 20px;
+  }
 `;
 
 export const WorkSliderContainer = styled.div`
@@ -29,6 +33,10 @@ export const WorksImageOverlay = styled.div`
   height: 99.5%;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 2%, rgba(0, 0, 0, 0));
   pointer-events: none;
+
+  @media screen and (max-width: 1024px) {
+    height: 99.3%;
+  }
 `;
 
 export const WorksTextContainer = styled.div`
@@ -46,6 +54,12 @@ export const WorksMainPar = styled.p`
   line-height: 130%;
   padding-left: 40px;
   margin-top: -300px;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 16px;
+    max-width: 480px;
+    margin-top: -220px;
+  }
 `;
 
 export const WorksParagraph = styled.p`
@@ -57,6 +71,12 @@ export const WorksParagraph = styled.p`
   padding-left: 40px;
   margin-top: -210px;
   position: absolute;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 16px;
+    max-width: 480px;
+    margin-top: -130px;
+  }
 `;
 
 export const WorksNameContainer = styled.div`
@@ -67,6 +87,12 @@ export const WorksNameContainer = styled.div`
   display: inline-block;
   bottom: -25px;
   right: -1px;
+
+  @media screen and (max-width: 1024px) {
+    bottom: -14px;
+    padding-left: 18px;
+    padding-top: 15px;
+  }
 `;
 
 export const WorksName = styled.h1`
@@ -77,4 +103,9 @@ export const WorksName = styled.h1`
   margin: 0;
   padding: 0;
   position: relative;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 60px;
+    max-width: 312px;
+  }
 `;

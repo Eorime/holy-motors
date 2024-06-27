@@ -40,4 +40,8 @@ export const ScrollContainer2 = styled.div`
 export const ClientLogo = styled.img`
   object-fit: contain;
   margin-right: 140px;
+
+  @media screen and (max-width: 1024px) {
+    max-width: 90px;
+  }
 `;

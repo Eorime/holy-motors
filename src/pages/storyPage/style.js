@@ -10,4 +10,8 @@ export const StoryContainer = styled.div`
   height: 1120px;
   background-position: calc(50% - 30px) calc(50% + 10px);
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+
+  @media screen and (max-width: 1024px) {
+    height: 717px;
+  }
 `;

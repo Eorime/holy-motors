@@ -14,6 +14,11 @@ export const NavContainer = styled.div`
   padding-left: 70px;
   padding-top: 70px;
   padding-bottom: 32px;
+
+  @media screen and (max-width: 1024px) {
+    padding-top: 30px;
+    margin-bottom: -450px;
+  }
 `;
 
 export const StyledLink = styled(Link)`
@@ -37,5 +42,10 @@ export const NavElement = styled.h1`
     &:hover {
       color: #8c0000;
     }
+  }
+
+  @media screen and (max-width: 1024px) {
+    font-size: 200px;
+    margin-bottom: -40px;
   }
 `;
