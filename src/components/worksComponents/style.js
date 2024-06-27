@@ -26,20 +26,37 @@ export const WorksImageOverlay = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 99.6%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 2%, rgba(0, 0, 0, 0));
+  height: 99.5%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 2%, rgba(0, 0, 0, 0));
   pointer-events: none;
 `;
 
 export const WorksTextContainer = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 200px;
+`;
+
+export const WorksMainPar = styled.p`
+  position: relative;
+  color: #ffffff;
+  font-size: 26px;
+  max-width: 800px;
+  font-family: "InterTightLight", sans-serif;
+  line-height: 130%;
+  padding-left: 40px;
+  margin-top: -300px;
 `;
 
 export const WorksParagraph = styled.p`
   color: #ffffff;
   font-size: 26px;
   max-width: 800px;
+  font-family: "InterTightLight", sans-serif;
+  line-height: 130%;
+  padding-left: 40px;
+  margin-top: -210px;
+  position: absolute;
 `;
 
 export const WorksNameContainer = styled.div`
@@ -48,7 +65,7 @@ export const WorksNameContainer = styled.div`
   padding-left: 30px;
   position: absolute;
   display: inline-block;
-  bottom: 80px;
+  bottom: -25px;
   right: -1px;
 `;
 

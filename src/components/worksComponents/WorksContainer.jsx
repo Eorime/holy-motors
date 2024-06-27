@@ -5,6 +5,7 @@ import {
   WorkSliderContainer,
   WorksImage,
   WorksImageOverlay,
+  WorksMainPar,
   WorksName,
   WorksNameContainer,
   WorksParagraph,
@@ -13,7 +14,7 @@ import {
 import { worksData } from "../../data/worksData";
 
 const WorksContainer = () => {
-  const work = worksData[0];
+  const work = worksData[3];
 
   return (
     <Container>
@@ -23,13 +24,13 @@ const WorksContainer = () => {
           <WorksImageOverlay />
         </ImageWrapper>
 
+        <WorksTextContainer>
+          <WorksMainPar>{work.textOne}</WorksMainPar>
+          <WorksParagraph>{work.textTwo}</WorksParagraph>
+        </WorksTextContainer>
         <WorksNameContainer>
           <WorksName>{work.name}</WorksName>
         </WorksNameContainer>
-        <WorksTextContainer>
-          <WorksParagraph></WorksParagraph>
-          <WorksParagraph></WorksParagraph>
-        </WorksTextContainer>
       </WorkSliderContainer>
     </Container>
   );
