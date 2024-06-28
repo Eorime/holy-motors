@@ -18,6 +18,12 @@ export const NavContainer = styled.div`
   @media screen and (max-width: 1024px) {
     padding-top: 30px;
     margin-bottom: -450px;
+    padding-left: 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 417px;
+    height: 1024px;
   }
 `;
 
@@ -47,5 +53,9 @@ export const NavElement = styled.h1`
   @media screen and (max-width: 1024px) {
     font-size: 200px;
     margin-bottom: -40px;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 160px;
   }
 `;

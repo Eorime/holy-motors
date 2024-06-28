@@ -12,6 +12,11 @@ export const MainContainer = styled.div`
   @media screen and (max-width: 1024px) {
     padding: 40px 20px;
   }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding: 40px 25px;
+  }
 `;
 
 export const ProjectsTextContainer = styled.div`
@@ -33,6 +38,11 @@ export const ProjectsHeader = styled.h1`
     max-width: 483px;
     margin-bottom: 20px;
   }
+
+  @media screen and (max-width: 768px) {
+    max-width: 570px;
+    margin-top: -15px;
+  }
 `;
 
 export const ProjectsParagraph = styled.p`
@@ -48,6 +58,11 @@ export const ProjectsParagraph = styled.p`
     max-width: 483px;
     margin-bottom: 25px;
   }
+
+  @media screen and (max-width: 768px) {
+    max-width: 728px;
+    font-size: 26px;
+  }
 `;
 
 export const ProjectsSliderContainer = styled.div`
@@ -58,6 +73,11 @@ export const ProjectsSliderContainer = styled.div`
   @media screen and (max-width: 1024px) {
     width: 481px;
     height: 517px;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 728px;
+    height: 510px;
   }
 `;
 
