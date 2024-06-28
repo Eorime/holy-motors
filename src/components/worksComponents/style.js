@@ -9,6 +9,10 @@ export const Container = styled.div`
   @media screen and (max-width: 1024px) {
     padding: 60px 20px;
   }
+
+  @media screen and (max-width: 768px) {
+    padding: 40px 20px;
+  }
 `;
 
 export const WorkSliderContainer = styled.div`
@@ -19,10 +23,20 @@ export const WorkSliderContainer = styled.div`
 export const ImageWrapper = styled.div`
   position: relative;
   width: 100%;
+
+  @media screen and (max-width: 1024px) {
+    height: 944px;
+  }
 `;
 
 export const WorksImage = styled.img`
   max-width: 100%;
+
+  @media screen and (max-width: 1024px) {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
 `;
 
 export const WorksImageOverlay = styled.div`
@@ -36,6 +50,15 @@ export const WorksImageOverlay = styled.div`
 
   @media screen and (max-width: 1024px) {
     height: 99.3%;
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 100%;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9) 2%,
+      rgba(0, 0, 0, 0)
+    );
   }
 `;
 
@@ -60,6 +83,13 @@ export const WorksMainPar = styled.p`
     max-width: 480px;
     margin-top: -220px;
   }
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+    max-width: 688px;
+    margin-top: -890px;
+    padding-left: 20px;
+  }
 `;
 
 export const WorksParagraph = styled.p`
@@ -76,6 +106,13 @@ export const WorksParagraph = styled.p`
     font-size: 16px;
     max-width: 480px;
     margin-top: -130px;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+    max-width: 688px;
+    margin-top: -800px;
+    padding-left: 20px;
   }
 `;
 

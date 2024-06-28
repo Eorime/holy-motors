@@ -12,6 +12,10 @@ export const ClientsContainer = styled.div`
   @media screen and (max-width: 1024px) {
     height: 640px;
   }
+
+  @media screen and (max-width: 768px) {
+    height: 1024px;
+  }
 `;
 
 export const ClientsHeader = styled.h1`
@@ -25,5 +29,9 @@ export const ClientsHeader = styled.h1`
     font-size: 135px;
     margin-top: 94px;
     margin-bottom: 70px;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 100px;
   }
 `;
