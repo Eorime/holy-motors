@@ -146,3 +146,30 @@ export const WorksName = styled.h1`
     max-width: 312px;
   }
 `;
+
+export const SliderButton = styled.button`
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #000000;
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 24px;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: #ffffff;
+    color: #000000;
+  }
+`;
+
+export const PrevButton = styled(SliderButton)`
+  left: 20px;
+`;
+
+export const NextButton = styled(SliderButton)`
+  right: 20px;
+`;
