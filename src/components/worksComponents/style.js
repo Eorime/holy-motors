@@ -173,3 +173,24 @@ export const PrevButton = styled(SliderButton)`
 export const NextButton = styled(SliderButton)`
   right: 20px;
 `;
+
+export const SliderContainer = styled.div`
+  position: absolute;
+  bottom: 750px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px;
+  z-index: 10;
+`;
+
+export const SliderBar = styled.div`
+  width: 380px;
+  height: 6px;
+  background-color: #d9d9d9;
+  transition: background-color 0.3s ease-in-out;
+
+  &.active {
+    background-color: #ff0000;
+  }
+`;

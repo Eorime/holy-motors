@@ -4,6 +4,9 @@ import {
   ImageWrapper,
   NextButton,
   PrevButton,
+  SliderBar,
+  SliderContainer,
+  SliderProgress,
   WorkSliderContainer,
   WorksImage,
   WorksImageOverlay,
@@ -32,6 +35,14 @@ const WorksContainer = () => {
   return (
     <Container>
       <WorkSliderContainer>
+        <SliderContainer>
+          {worksData.map((_, index) => (
+            <SliderBar
+              key={index}
+              className={index === currentSlideIndex ? "active" : ""}
+            />
+          ))}
+        </SliderContainer>
         <ImageWrapper>
           <WorksImage src={work.image} />
           <WorksImageOverlay />
