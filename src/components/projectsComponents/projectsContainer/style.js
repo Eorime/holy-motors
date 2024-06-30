@@ -141,6 +141,13 @@ export const SliderButton = styled.button`
     font-size: 11px;
     bottom: 6%;
   }
+
+  @media screen and (max-width: 995px) {
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    top: 91.8%;
+  }
 `;
 
 export const PrevButton = styled(SliderButton)`
@@ -148,6 +155,10 @@ export const PrevButton = styled(SliderButton)`
 
   @media screen and (max-width: 1024px) {
     right: 215px;
+  }
+
+  @media screen and (max-width: 995px) {
+    right: 240px;
   }
 `;
 
@@ -186,6 +197,11 @@ export const SliderBar = styled.div`
   @media screen and (max-width: 1024px) {
     width: 130px;
     height: 3px;
+  }
+
+  @media screen and (max-width: 995px) {
+    height: 4px;
+    width: 200px;
   }
 `;
 

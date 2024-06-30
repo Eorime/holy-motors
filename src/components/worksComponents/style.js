@@ -36,6 +36,10 @@ export const WorksImage = styled.img`
     object-fit: cover;
     height: 480px;
   }
+
+  @media screen and (max-width: 995px) {
+    height: 944px;
+  }
 `;
 
 export const WorksImageOverlay = styled.div`
@@ -220,6 +224,10 @@ export const SliderBar = styled.div`
   @media screen and (max-width: 1024px) {
     height: 5px;
     width: 220px;
+  }
+
+  @media screen and (max-width: 995px) {
+    width: 120px;
   }
 `;
 
