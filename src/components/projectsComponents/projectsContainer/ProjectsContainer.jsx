@@ -63,10 +63,12 @@ const ProjectsContainer = () => {
                   className={index === currentSlideIndex ? "active" : ""}
                 />
               ))}
-              <SliderCounter>{project.id}</SliderCounter>
-              <PrevButton onClick={prevSlide}>&#10094;</PrevButton>
-              <NextButton onClick={nextSlide}>&#10095;</NextButton>
             </SliderContainer>
+
+            <SliderCounter>{project.id}</SliderCounter>
+            <PrevButton onClick={prevSlide}>&#10094;</PrevButton>
+            <NextButton onClick={nextSlide}>&#10095;</NextButton>
+
             <ProjectsSliderImage src={project.image} />
             <ProjectsSliderNameContainer>
               <ProjectsSliderName>{project.name}</ProjectsSliderName>
@@ -83,10 +85,12 @@ const ProjectsContainer = () => {
                   className={index === currentSlideIndex ? "active" : ""}
                 />
               ))}
-              <SliderCounter>{project.id}</SliderCounter>
-              <PrevButton onClick={prevSlide}>&#10094;</PrevButton>
-              <NextButton onClick={nextSlide}>&#10095;</NextButton>
             </SliderContainer>
+
+            <SliderCounter>{project.id}</SliderCounter>
+            <PrevButton onClick={prevSlide}>&#10094;</PrevButton>
+            <NextButton onClick={nextSlide}>&#10095;</NextButton>
+
             <ProjectsSliderImage src={project.image} />
             <ProjectsSliderNameContainer>
               <ProjectsSliderName>{project.name}</ProjectsSliderName>

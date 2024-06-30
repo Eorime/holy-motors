@@ -48,6 +48,9 @@ const WorksContainer = () => {
           <WorksImage src={work.image} />
           <WorksImageOverlay />
         </ImageWrapper>
+        <PrevButton onClick={prevSlide}>&#10094;</PrevButton>
+        <NextButton onClick={nextSlide}>&#10095;</NextButton>
+        <SliderCounter>{work.id}</SliderCounter>
 
         <WorksTextContainer>
           <WorksMainPar>{work.textOne}</WorksMainPar>
@@ -57,10 +60,6 @@ const WorksContainer = () => {
           <WorksName>{work.name}</WorksName>
         </WorksNameContainer>
       </WorkSliderContainer>
-
-      <SliderCounter>{work.id}</SliderCounter>
-      <PrevButton onClick={prevSlide}>&#10094;</PrevButton>
-      <NextButton onClick={nextSlide}>&#10095;</NextButton>
     </Container>
   );
 };

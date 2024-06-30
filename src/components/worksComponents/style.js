@@ -149,15 +149,17 @@ export const WorksName = styled.h1`
 
 export const SliderButton = styled.button`
   position: absolute;
-  top: 50%;
+  top: 9%;
   transform: translateY(-50%);
   background: #000000;
   color: white;
   border: none;
-  padding: 15px;
+  height: 30px;
+  width: 30px;
   cursor: pointer;
   z-index: 1;
-  font-size: 24px;
+  font-size: 20px;
+  padding-bottom: 5px;
   transition: background 0.3s ease;
 
   &:hover {
@@ -167,16 +169,16 @@ export const SliderButton = styled.button`
 `;
 
 export const PrevButton = styled(SliderButton)`
-  left: 20px;
+  right: 85px;
 `;
 
 export const NextButton = styled(SliderButton)`
-  right: 20px;
+  right: 40px;
 `;
 
 export const SliderContainer = styled.div`
   position: absolute;
-  bottom: 750px;
+  bottom: 765px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -196,9 +198,11 @@ export const SliderBar = styled.div`
 `;
 
 export const SliderCounter = styled.p`
-  font-size: 35px;
+  font-size: 45px;
   font-family: "Mango", sans-serif;
   color: #000000;
   position: absolute;
+  top: 2%;
+  left: 40px;
   z-index: 1;
 `;

@@ -117,15 +117,17 @@ export const ProjectsSliderName = styled.h1`
 
 export const SliderButton = styled.button`
   position: absolute;
-  top: 50%;
+  top: 94.5%;
   transform: translateY(-50%);
   background: #ff0000;
   color: white;
   border: none;
-  padding: 15px;
+  height: 30px;
+  width: 30px;
   cursor: pointer;
-  z-index: 10;
-  font-size: 24px;
+  z-index: 1;
+  font-size: 20px;
+  padding-bottom: 5px;
   transition: background 0.3s ease;
 
   &:hover {
@@ -135,16 +137,16 @@ export const SliderButton = styled.button`
 `;
 
 export const PrevButton = styled(SliderButton)`
-  left: 50px;
+  right: 390px;
 `;
 
 export const NextButton = styled(SliderButton)`
-  right: 50px;
+  right: 345px;
 `;
 
 export const SliderContainer = styled.div`
   position: absolute;
-  bottom: 750px;
+  bottom: 765px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -164,9 +166,11 @@ export const SliderBar = styled.div`
 `;
 
 export const SliderCounter = styled.p`
-  font-size: 35px;
+  font-size: 40px;
   font-family: "Mango", sans-serif;
-  color: #000000;
+  color: #ff0000;
   position: absolute;
+  top: 87%;
+  left: 30px;
   z-index: 1;
 `;
