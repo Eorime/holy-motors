@@ -134,14 +134,29 @@ export const SliderButton = styled.button`
     background: #ffffff;
     color: #000000;
   }
+
+  @media screen and (max-width: 1024px) {
+    height: 20px;
+    width: 20px;
+    font-size: 11px;
+    bottom: 6%;
+  }
 `;
 
 export const PrevButton = styled(SliderButton)`
   right: 390px;
+
+  @media screen and (max-width: 1024px) {
+    right: 215px;
+  }
 `;
 
 export const NextButton = styled(SliderButton)`
   right: 345px;
+
+  @media screen and (max-width: 1024px) {
+    right: 185px;
+  }
 `;
 
 export const SliderContainer = styled.div`
@@ -152,6 +167,10 @@ export const SliderContainer = styled.div`
   display: flex;
   gap: 15px;
   z-index: 10;
+
+  @media screen and (max-width: 1024px) {
+    bottom: 95%;
+  }
 `;
 
 export const SliderBar = styled.div`
@@ -163,6 +182,11 @@ export const SliderBar = styled.div`
   &.active {
     background-color: #ff0000;
   }
+
+  @media screen and (max-width: 1024px) {
+    width: 130px;
+    height: 3px;
+  }
 `;
 
 export const SliderCounter = styled.p`
@@ -173,4 +197,8 @@ export const SliderCounter = styled.p`
   top: 87%;
   left: 30px;
   z-index: 1;
+
+  @media screen and (max-width: 1024px) {
+    top: 82%;
+  }
 `;

@@ -33,9 +33,8 @@ export const WorksImage = styled.img`
   max-width: 100%;
 
   @media screen and (max-width: 1024px) {
-    height: 100%;
-    width: 100%;
     object-fit: cover;
+    height: 480px;
   }
 `;
 
@@ -49,7 +48,7 @@ export const WorksImageOverlay = styled.div`
   pointer-events: none;
 
   @media screen and (max-width: 1024px) {
-    height: 99.3%;
+    height: 480px;
   }
 
   @media screen and (max-width: 768px) {
@@ -81,7 +80,9 @@ export const WorksMainPar = styled.p`
   @media screen and (max-width: 1024px) {
     font-size: 16px;
     max-width: 480px;
-    margin-top: -220px;
+    top: 65%;
+    position: absolute;
+    left: -20px;
   }
 
   @media screen and (max-width: 768px) {
@@ -105,7 +106,8 @@ export const WorksParagraph = styled.p`
   @media screen and (max-width: 1024px) {
     font-size: 16px;
     max-width: 480px;
-    margin-top: -130px;
+    top: 60%;
+    left: -20px;
   }
 
   @media screen and (max-width: 768px) {
@@ -126,7 +128,7 @@ export const WorksNameContainer = styled.div`
   right: -1px;
 
   @media screen and (max-width: 1024px) {
-    bottom: -14px;
+    bottom: 47.5%;
     padding-left: 18px;
     padding-top: 15px;
   }
@@ -166,14 +168,29 @@ export const SliderButton = styled.button`
     background: #ffffff;
     color: #000000;
   }
+
+  @media screen and (max-width: 1024px) {
+    height: 20px;
+    width: 20px;
+    font-size: 11px;
+    top: 5.5%;
+  }
 `;
 
 export const PrevButton = styled(SliderButton)`
   right: 85px;
+
+  @media screen and (max-width: 1024px) {
+    right: 60px;
+  }
 `;
 
 export const NextButton = styled(SliderButton)`
   right: 40px;
+
+  @media screen and (max-width: 1024px) {
+    right: 30px;
+  }
 `;
 
 export const SliderContainer = styled.div`
@@ -184,16 +201,25 @@ export const SliderContainer = styled.div`
   display: flex;
   gap: 15px;
   z-index: 10;
+
+  @media screen and (max-width: 1024px) {
+    bottom: 920px;
+  }
 `;
 
 export const SliderBar = styled.div`
-  width: 380px;
+  width: 390px;
   height: 6px;
   background-color: #d9d9d9;
   transition: background-color 0.3s ease-in-out;
 
   &.active {
     background-color: #ff0000;
+  }
+
+  @media screen and (max-width: 1024px) {
+    height: 5px;
+    width: 220px;
   }
 `;
 
@@ -205,4 +231,9 @@ export const SliderCounter = styled.p`
   top: 2%;
   left: 40px;
   z-index: 1;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 40px;
+    top: 0.5%;
+  }
 `;
