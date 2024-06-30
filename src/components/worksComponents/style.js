@@ -10,7 +10,7 @@ export const Container = styled.div`
     padding: 60px 20px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     padding: 40px 20px;
   }
 `;
@@ -51,7 +51,7 @@ export const WorksImageOverlay = styled.div`
     height: 480px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     height: 100%;
     background: linear-gradient(
       to bottom,
@@ -85,7 +85,7 @@ export const WorksMainPar = styled.p`
     left: -20px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     font-size: 24px;
     max-width: 688px;
     margin-top: -890px;
@@ -110,7 +110,7 @@ export const WorksParagraph = styled.p`
     left: -20px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     font-size: 24px;
     max-width: 688px;
     margin-top: -800px;

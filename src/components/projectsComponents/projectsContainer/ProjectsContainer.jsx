@@ -18,7 +18,7 @@ import {
 import { projectsData } from "../../../data/projectsData";
 
 const ProjectsContainer = () => {
-  const [largeScreen, setLargeScreen] = useState(window.innerWidth >= 768);
+  const [largeScreen, setLargeScreen] = useState(window.innerWidth >= 995);
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const project = projectsData[currentSlideIndex];
 
@@ -34,7 +34,7 @@ const ProjectsContainer = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      const isLarge = window.innerWidth >= 770;
+      const isLarge = window.innerWidth >= 995;
       setLargeScreen(isLarge);
     };
 

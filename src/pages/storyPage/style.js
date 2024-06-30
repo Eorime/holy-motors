@@ -16,7 +16,7 @@ export const StoryContainer = styled.div`
     background-position: calc(50% - 5px) calc(50% + 10px);
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     height: 1024px;
   }
 `;

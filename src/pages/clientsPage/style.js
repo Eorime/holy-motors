@@ -13,7 +13,7 @@ export const ClientsContainer = styled.div`
     height: 640px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     height: 1024px;
   }
 `;
@@ -31,7 +31,7 @@ export const ClientsHeader = styled.h1`
     margin-bottom: 70px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     font-size: 100px;
   }
 `;

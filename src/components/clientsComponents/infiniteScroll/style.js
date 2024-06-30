@@ -23,7 +23,7 @@ export const ContainerWrapper = styled.div`
   overflow: hidden;
   width: 100%;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -37,7 +37,7 @@ export const Container = styled.div`
   width: 100%;
   white-space: nowrap;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     padding-left: 122px;
   }
 `;
@@ -47,7 +47,7 @@ export const ScrollContainer1 = styled.div`
   margin-bottom: 70px;
   animation: ${slide1} 15s infinite linear;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     animation: none;
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@ export const ScrollContainer2 = styled.div`
   display: inline-block;
   animation: ${slide2} 15s infinite linear;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     animation: none;
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@ export const ClientLogo = styled.img`
     max-width: 90px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     max-width: 180px;
   }
 `;

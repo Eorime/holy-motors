@@ -13,7 +13,7 @@ export const MainContainer = styled.div`
     padding: 40px 20px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     flex-direction: column;
     padding: 40px 25px;
   }
@@ -39,7 +39,7 @@ export const ProjectsHeader = styled.h1`
     margin-bottom: 20px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     max-width: 570px;
     margin-top: -15px;
   }
@@ -59,7 +59,7 @@ export const ProjectsParagraph = styled.p`
     margin-bottom: 25px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     max-width: 728px;
     font-size: 26px;
   }
@@ -75,7 +75,7 @@ export const ProjectsSliderContainer = styled.div`
     height: 517px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 995px) {
     width: 728px;
     height: 510px;
   }
