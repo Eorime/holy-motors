@@ -13,4 +13,8 @@ export const ProjectsContainerStyle = styled.div`
   @media screen and (max-width: 995px) {
     height: 1050px;
   }
+
+  @media screen and (max-width: 368px) {
+    height: 568px;
+  }
 `;

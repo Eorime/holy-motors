@@ -92,8 +92,8 @@ export const WorksMainPar = styled.p`
   @media screen and (max-width: 995px) {
     font-size: 24px;
     max-width: 688px;
-    margin-top: -890px;
-    padding-left: 20px;
+    top: 38%;
+    padding-left: 40px;
   }
 `;
 
@@ -117,8 +117,8 @@ export const WorksParagraph = styled.p`
   @media screen and (max-width: 995px) {
     font-size: 24px;
     max-width: 688px;
-    margin-top: -800px;
-    padding-left: 20px;
+    top: 40%;
+    padding-left: 40px;
   }
 `;
 
@@ -135,6 +135,11 @@ export const WorksNameContainer = styled.div`
     bottom: 47.5%;
     padding-left: 18px;
     padding-top: 15px;
+  }
+
+  @media screen and (max-width: 995px) {
+    right: -2px;
+    bottom: -2%;
   }
 `;
 
@@ -179,6 +184,13 @@ export const SliderButton = styled.button`
     font-size: 11px;
     top: 5.5%;
   }
+
+  @media screen and (max-width: 995px) {
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    top: 95.5%;
+  }
 `;
 
 export const PrevButton = styled(SliderButton)`
@@ -187,6 +199,10 @@ export const PrevButton = styled(SliderButton)`
   @media screen and (max-width: 1024px) {
     right: 60px;
   }
+
+  @media screen and (max-width: 995px) {
+    right: 58%;
+  }
 `;
 
 export const NextButton = styled(SliderButton)`
@@ -194,6 +210,10 @@ export const NextButton = styled(SliderButton)`
 
   @media screen and (max-width: 1024px) {
     right: 30px;
+  }
+
+  @media screen and (max-width: 995px) {
+    right: 50%;
   }
 `;
 
@@ -227,7 +247,7 @@ export const SliderBar = styled.div`
   }
 
   @media screen and (max-width: 995px) {
-    width: 120px;
+    width: 150px;
   }
 `;
 
@@ -243,5 +263,11 @@ export const SliderCounter = styled.p`
   @media screen and (max-width: 1024px) {
     font-size: 40px;
     top: 0.5%;
+  }
+
+  @media screen and (max-width: 995px) {
+    font-size: 40px;
+    top: 90.5%;
+    left: 20px;
   }
 `;

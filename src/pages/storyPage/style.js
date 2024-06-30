@@ -17,6 +17,12 @@ export const StoryContainer = styled.div`
   }
 
   @media screen and (max-width: 995px) {
-    height: 1024px;
+    height: 1054px;
+    background-position: cover;
+    background-position: calc(50% + 215px) calc(50% - 50px);
+  }
+
+  @media screen and (max-width: 368px) {
+    height: 568px;
   }
 `;

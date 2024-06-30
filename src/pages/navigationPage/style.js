@@ -25,6 +25,10 @@ export const NavContainer = styled.div`
     padding-top: 417px;
     height: 1024px;
   }
+
+  @media screen and (max-width: 368px) {
+    height: 568px;
+  }
 `;
 
 export const StyledLink = styled(Link)`

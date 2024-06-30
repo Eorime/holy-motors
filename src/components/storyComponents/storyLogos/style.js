@@ -10,6 +10,12 @@ export const Container = styled.div`
     gap: 66px;
     margin-top: -20px;
   }
+
+  @media screen and (max-width: 995px) {
+    gap: 66px;
+    margin-top: 80px;
+    padding-bottom: 80px;
+  }
 `;
 
 export const StoryLogo = styled.img`

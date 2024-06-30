@@ -14,6 +14,10 @@ export const StoryMainContainer = styled.div`
   @media screen and (max-width: 1024px) {
     gap: 31px;
   }
+
+  @media screen and (max-width: 995px) {
+    flex-direction: column;
+  }
 `;
 
 export const StoryLeftContainer = styled.div`
@@ -37,6 +41,12 @@ export const StorytHeader = styled.h1`
   @media screen and (max-width: 1024px) {
     font-size: 135px;
   }
+
+  @media screen and (max-width: 995px) {
+    font-size: 100px;
+    margin-bottom: 2px;
+    margin-top: 560px;
+  }
 `;
 
 export const StorySubHeader = styled.h6`
@@ -51,6 +61,13 @@ export const StorySubHeader = styled.h6`
     max-width: 309px;
     margin-top: 10px;
   }
+
+  @media screen and (max-width: 995px) {
+    font-size: 32px;
+    max-width: 650.6px;
+    margin-top: 20px;
+    margin-bottom: -35px;
+  }
 `;
 
 export const StoryParagraph = styled.p`
@@ -62,5 +79,10 @@ export const StoryParagraph = styled.p`
   @media screen and (max-width: 1024px) {
     font-size: 16px;
     max-width: 309px;
+  }
+
+  @media screen and (max-width: 995px) {
+    font-size: 24px;
+    max-width: 650.6px;
   }
 `;
