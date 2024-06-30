@@ -6,7 +6,7 @@ export const Container = styled.div`
   gap: 115px;
   justify-content: center;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     gap: 66px;
     margin-top: -20px;
   }
@@ -21,7 +21,7 @@ export const Container = styled.div`
 export const StoryLogo = styled.img`
   object-fit: contain;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     max-width: 160px;
   }
 `;

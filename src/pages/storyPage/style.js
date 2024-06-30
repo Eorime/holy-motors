@@ -11,7 +11,7 @@ export const StoryContainer = styled.div`
   background-position: calc(50% - 30px) calc(50% + 10px);
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     height: 717px;
     background-position: calc(50% - 5px) calc(50% + 10px);
   }

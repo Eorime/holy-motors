@@ -15,7 +15,7 @@ export const NavContainer = styled.div`
   padding-top: 70px;
   padding-bottom: 32px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     padding-top: 30px;
     margin-bottom: -450px;
     padding-left: 20px;
@@ -54,7 +54,7 @@ export const NavElement = styled.h1`
     }
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     font-size: 200px;
     margin-bottom: -40px;
   }

@@ -75,7 +75,7 @@ export const ClientLogo = styled.img`
   object-fit: contain;
   margin-right: 140px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     max-width: 90px;
   }
 

@@ -11,7 +11,7 @@ export const StoryMainContainer = styled.div`
   padding-top: 65px;
   gap: 45px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     gap: 31px;
   }
 
@@ -38,7 +38,7 @@ export const StorytHeader = styled.h1`
   margin-bottom: -30px;
   padding-top: 10px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     font-size: 135px;
   }
 
@@ -56,7 +56,7 @@ export const StorySubHeader = styled.h6`
   max-width: 520px;
   margin-top: 20px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     font-size: 21px;
     max-width: 309px;
     margin-top: 10px;
@@ -76,7 +76,7 @@ export const StoryParagraph = styled.p`
   color: #ffffff;
   max-width: 520px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     font-size: 16px;
     max-width: 309px;
   }

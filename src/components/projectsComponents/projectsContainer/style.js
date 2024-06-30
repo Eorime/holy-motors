@@ -9,7 +9,7 @@ export const MainContainer = styled.div`
   justify-content: center;
   gap: 40px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     padding: 40px 20px;
   }
 
@@ -33,7 +33,7 @@ export const ProjectsHeader = styled.h1`
   margin-bottom: 180px;
   margin-top: 0;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     font-size: 32px;
     max-width: 483px;
     margin-bottom: 20px;
@@ -53,7 +53,7 @@ export const ProjectsParagraph = styled.p`
   line-height: 140%;
   margin-bottom: 20px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     font-size: 24px;
     max-width: 483px;
     margin-bottom: 25px;
@@ -70,7 +70,7 @@ export const ProjectsSliderContainer = styled.div`
   width: 800px;
   height: 800px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     width: 481px;
     height: 517px;
   }
@@ -96,7 +96,7 @@ export const ProjectsSliderNameContainer = styled.div`
   right: -2px;
   display: inline-block;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     bottom: -17px;
     padding-left: 18px;
     padding-top: 15px;
@@ -110,7 +110,7 @@ export const ProjectsSliderName = styled.h1`
   margin: 0;
   padding: 0;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     font-size: 60px;
   }
 `;
@@ -135,7 +135,7 @@ export const SliderButton = styled.button`
     color: #000000;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     height: 20px;
     width: 20px;
     font-size: 11px;
@@ -153,7 +153,7 @@ export const SliderButton = styled.button`
 export const PrevButton = styled(SliderButton)`
   right: 390px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     right: 215px;
   }
 
@@ -165,7 +165,7 @@ export const PrevButton = styled(SliderButton)`
 export const NextButton = styled(SliderButton)`
   right: 345px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     right: 185px;
   }
 `;
@@ -179,7 +179,7 @@ export const SliderContainer = styled.div`
   gap: 15px;
   z-index: 10;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     bottom: 95%;
   }
 `;
@@ -194,7 +194,7 @@ export const SliderBar = styled.div`
     background-color: #ff0000;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     width: 130px;
     height: 3px;
   }
@@ -214,7 +214,7 @@ export const SliderCounter = styled.p`
   left: 30px;
   z-index: 1;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     top: 82%;
   }
 `;

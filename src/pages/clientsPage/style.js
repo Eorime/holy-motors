@@ -9,7 +9,7 @@ export const ClientsContainer = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     height: 640px;
   }
 
@@ -29,7 +29,7 @@ export const ClientsHeader = styled.h1`
   margin-top: 186px;
   margin-bottom: 110px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     font-size: 135px;
     margin-top: 94px;
     margin-bottom: 70px;

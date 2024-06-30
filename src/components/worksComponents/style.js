@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
   padding: 100px 40px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     padding: 60px 20px;
   }
 
@@ -24,7 +24,7 @@ export const ImageWrapper = styled.div`
   position: relative;
   width: 100%;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     height: 944px;
   }
 `;
@@ -32,7 +32,7 @@ export const ImageWrapper = styled.div`
 export const WorksImage = styled.img`
   max-width: 100%;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     object-fit: cover;
     height: 480px;
   }
@@ -51,7 +51,7 @@ export const WorksImageOverlay = styled.div`
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 2%, rgba(0, 0, 0, 0));
   pointer-events: none;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     height: 480px;
   }
 
@@ -81,7 +81,7 @@ export const WorksMainPar = styled.p`
   padding-left: 40px;
   margin-top: -300px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     font-size: 16px;
     max-width: 480px;
     top: 65%;
@@ -107,7 +107,7 @@ export const WorksParagraph = styled.p`
   margin-top: -210px;
   position: absolute;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     font-size: 16px;
     max-width: 480px;
     top: 60%;
@@ -131,7 +131,7 @@ export const WorksNameContainer = styled.div`
   bottom: -25px;
   right: -1px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     bottom: 47.5%;
     padding-left: 18px;
     padding-top: 15px;
@@ -152,7 +152,7 @@ export const WorksName = styled.h1`
   padding: 0;
   position: relative;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     font-size: 60px;
     max-width: 312px;
   }
@@ -178,7 +178,7 @@ export const SliderButton = styled.button`
     color: #000000;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     height: 20px;
     width: 20px;
     font-size: 11px;
@@ -196,7 +196,7 @@ export const SliderButton = styled.button`
 export const PrevButton = styled(SliderButton)`
   right: 85px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     right: 60px;
   }
 
@@ -208,7 +208,7 @@ export const PrevButton = styled(SliderButton)`
 export const NextButton = styled(SliderButton)`
   right: 40px;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     right: 30px;
   }
 
@@ -226,7 +226,7 @@ export const SliderContainer = styled.div`
   gap: 15px;
   z-index: 10;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     bottom: 920px;
   }
 `;
@@ -241,7 +241,7 @@ export const SliderBar = styled.div`
     background-color: #ff0000;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     height: 5px;
     width: 220px;
   }
@@ -260,7 +260,7 @@ export const SliderCounter = styled.p`
   left: 40px;
   z-index: 1;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1500px) {
     font-size: 40px;
     top: 0.5%;
   }
