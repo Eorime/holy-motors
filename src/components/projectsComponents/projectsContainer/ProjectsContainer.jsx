@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import {
   Container,
   MainContainer,
+  NextButton,
+  PrevButton,
   ProjectsHeader,
   ProjectsParagraph,
   ProjectsSliderContainer,
@@ -9,12 +11,26 @@ import {
   ProjectsSliderName,
   ProjectsSliderNameContainer,
   ProjectsTextContainer,
+  SliderBar,
+  SliderContainer,
+  SliderCounter,
 } from "./style";
 import { projectsData } from "../../../data/projectsData";
 
 const ProjectsContainer = () => {
   const [largeScreen, setLargeScreen] = useState(window.innerWidth >= 768);
-  const firstProject = projectsData[0];
+  const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
+  const project = projectsData[currentSlideIndex];
+
+  const nextSlide = () => {
+    setCurrentSlideIndex((prev) => (prev + 1) % projectsData.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlideIndex(
+      (prev) => (prev - 1 + projectsData.length) % projectsData.length
+    );
+  };
 
   useEffect(() => {
     const handleResize = () => {
@@ -34,29 +50,52 @@ const ProjectsContainer = () => {
       {largeScreen ? (
         <MainContainer>
           <ProjectsTextContainer>
-            <ProjectsHeader>{firstProject.header}</ProjectsHeader>
-            <ProjectsParagraph>{firstProject.textOne}</ProjectsParagraph>
-            <ProjectsParagraph>{firstProject.textTwo}</ProjectsParagraph>
+            <ProjectsHeader>{project.header}</ProjectsHeader>
+            <ProjectsParagraph>{project.textOne}</ProjectsParagraph>
+            <ProjectsParagraph>{project.textTwo}</ProjectsParagraph>
           </ProjectsTextContainer>
+
           <ProjectsSliderContainer>
-            <ProjectsSliderImage src={firstProject.image} />
+            <SliderContainer>
+              {projectsData.map((_, index) => (
+                <SliderBar
+                  key={index}
+                  className={index === currentSlideIndex ? "active" : ""}
+                />
+              ))}
+              <SliderCounter>{project.id}</SliderCounter>
+              <PrevButton onClick={prevSlide}>&#10094;</PrevButton>
+              <NextButton onClick={nextSlide}>&#10095;</NextButton>
+            </SliderContainer>
+            <ProjectsSliderImage src={project.image} />
             <ProjectsSliderNameContainer>
-              <ProjectsSliderName>{firstProject.name}</ProjectsSliderName>
+              <ProjectsSliderName>{project.name}</ProjectsSliderName>
             </ProjectsSliderNameContainer>
           </ProjectsSliderContainer>
         </MainContainer>
       ) : (
         <MainContainer>
           <ProjectsSliderContainer>
-            <ProjectsSliderImage src={firstProject.image} />
+            <SliderContainer>
+              {projectsData.map((_, index) => (
+                <SliderBar
+                  key={index}
+                  className={index === currentSlideIndex ? "active" : ""}
+                />
+              ))}
+              <SliderCounter>{project.id}</SliderCounter>
+              <PrevButton onClick={prevSlide}>&#10094;</PrevButton>
+              <NextButton onClick={nextSlide}>&#10095;</NextButton>
+            </SliderContainer>
+            <ProjectsSliderImage src={project.image} />
             <ProjectsSliderNameContainer>
-              <ProjectsSliderName>{firstProject.name}</ProjectsSliderName>
+              <ProjectsSliderName>{project.name}</ProjectsSliderName>
             </ProjectsSliderNameContainer>
           </ProjectsSliderContainer>
           <ProjectsTextContainer>
-            <ProjectsHeader>{firstProject.header}</ProjectsHeader>
-            <ProjectsParagraph>{firstProject.textOne}</ProjectsParagraph>
-            <ProjectsParagraph>{firstProject.textTwo}</ProjectsParagraph>
+            <ProjectsHeader>{project.header}</ProjectsHeader>
+            <ProjectsParagraph>{project.textOne}</ProjectsParagraph>
+            <ProjectsParagraph>{project.textTwo}</ProjectsParagraph>
           </ProjectsTextContainer>
         </MainContainer>
       )}

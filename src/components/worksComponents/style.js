@@ -194,3 +194,11 @@ export const SliderBar = styled.div`
     background-color: #ff0000;
   }
 `;
+
+export const SliderCounter = styled.p`
+  font-size: 35px;
+  font-family: "Mango", sans-serif;
+  color: #000000;
+  position: absolute;
+  z-index: 1;
+`;

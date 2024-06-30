@@ -114,3 +114,59 @@ export const ProjectsSliderName = styled.h1`
     font-size: 60px;
   }
 `;
+
+export const SliderButton = styled.button`
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ff0000;
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 24px;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: #ffffff;
+    color: #000000;
+  }
+`;
+
+export const PrevButton = styled(SliderButton)`
+  left: 50px;
+`;
+
+export const NextButton = styled(SliderButton)`
+  right: 50px;
+`;
+
+export const SliderContainer = styled.div`
+  position: absolute;
+  bottom: 750px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px;
+  z-index: 10;
+`;
+
+export const SliderBar = styled.div`
+  width: 233px;
+  height: 6px;
+  background-color: #d9d9d9;
+  transition: background-color 0.3s ease-in-out;
+
+  &.active {
+    background-color: #ff0000;
+  }
+`;
+
+export const SliderCounter = styled.p`
+  font-size: 35px;
+  font-family: "Mango", sans-serif;
+  color: #000000;
+  position: absolute;
+  z-index: 1;
+`;

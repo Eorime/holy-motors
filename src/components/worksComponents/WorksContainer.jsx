@@ -6,6 +6,7 @@ import {
   PrevButton,
   SliderBar,
   SliderContainer,
+  SliderCounter,
   SliderProgress,
   WorkSliderContainer,
   WorksImage,
@@ -57,6 +58,7 @@ const WorksContainer = () => {
         </WorksNameContainer>
       </WorkSliderContainer>
 
+      <SliderCounter>{work.id}</SliderCounter>
       <PrevButton onClick={prevSlide}>&#10094;</PrevButton>
       <NextButton onClick={nextSlide}>&#10095;</NextButton>
     </Container>
