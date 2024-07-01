@@ -175,7 +175,7 @@ export const SliderButton = styled.button`
   height: 30px;
   width: 30px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 20;
   font-size: 20px;
   padding-bottom: 5px;
   transition: background 0.3s ease;
