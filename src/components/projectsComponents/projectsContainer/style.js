@@ -273,6 +273,10 @@ export const SliderBar = styled.div`
     background-color: #ff0000;
   }
 
+  @media screen and (max-width: 1700px) {
+    width: 180px;
+  }
+
   @media screen and (max-width: 1500px) {
     width: 130px;
     height: 3px;

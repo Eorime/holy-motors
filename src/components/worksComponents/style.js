@@ -236,6 +236,10 @@ export const SliderButton = styled.button`
     color: #000000;
   }
 
+  @media screen and (max-width: 1700px) {
+    top: 10%;
+  }
+
   @media screen and (max-width: 1500px) {
     height: 20px;
     width: 20px;
@@ -304,8 +308,11 @@ export const SliderContainer = styled.div`
   gap: 15px;
   z-index: 10;
 
+  @media screen and (max-width: 1700px) {
+    top: 5%;
+  }
+
   @media screen and (max-width: 1500px) {
-    bottom: 920px;
     top: 3%;
   }
 
@@ -326,6 +333,11 @@ export const SliderBar = styled.div`
 
   &.active {
     background-color: #ff0000;
+  }
+
+  @media screen and (max-width: 1700px) {
+    height: 5px;
+    width: 330px;
   }
 
   @media screen and (max-width: 1500px) {
