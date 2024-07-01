@@ -55,6 +55,11 @@ export const ScrollContainer1 = styled.div`
     gap: 50px;
     margin-top: 20px;
   }
+
+  @media screen and (max-width: 500px) {
+    gap: 30px;
+    margin-left: 30px;
+  }
 `;
 
 export const ScrollContainer2 = styled.div`
@@ -68,6 +73,10 @@ export const ScrollContainer2 = styled.div`
     align-items: center;
     gap: 75px;
     margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 500px) {
+    gap: 40px;
   }
 `;
 
@@ -85,5 +94,9 @@ export const ClientLogo = styled.img`
 
   @media screen and (max-width: 740px) {
     max-width: 90px;
+  }
+
+  @media screen and (max-width: 500px) {
+    max-width: 50px;
   }
 `;

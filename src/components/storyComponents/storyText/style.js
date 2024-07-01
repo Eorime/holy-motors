@@ -51,6 +51,11 @@ export const StorytHeader = styled.h1`
   @media screen and (max-width: 740px) {
     font-size: 80px;
   }
+
+  @media screen and (max-width: 500px) {
+    font-size: 50px;
+    margin-top: 220px;
+  }
 `;
 
 export const StorySubHeader = styled.h6`
@@ -77,6 +82,11 @@ export const StorySubHeader = styled.h6`
     max-width: 460px;
     font-size: 28px;
   }
+
+  @media screen and (max-width: 500px) {
+    font-size: 21px;
+    max-width: 300px;
+  }
 `;
 
 export const StoryParagraph = styled.p`
@@ -97,5 +107,10 @@ export const StoryParagraph = styled.p`
 
   @media screen and (max-width: 740px) {
     max-width: 460px;
+  }
+
+  @media screen and (max-width: 500px) {
+    font-size: 16px;
+    max-width: 300px;
   }
 `;

@@ -20,6 +20,10 @@ export const ClientsContainer = styled.div`
   @media screen and (max-width: 740px) {
     height: 900px;
   }
+
+  @media screen and (max-width: 500px) {
+    height: 568px;
+  }
 `;
 
 export const ClientsHeader = styled.h1`
@@ -42,5 +46,10 @@ export const ClientsHeader = styled.h1`
   @media screen and (max-width: 740px) {
     font-size: 80px;
     margin-bottom: 40px;
+  }
+
+  @media screen and (max-width: 500px) {
+    font-size: 60px;
+    margin-top: 40px;
   }
 `;

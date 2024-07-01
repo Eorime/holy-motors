@@ -30,6 +30,12 @@ export const NavContainer = styled.div`
     height: 900px;
     padding-bottom: 20px;
   }
+
+  @media screen and (max-width: 500px) {
+    height: 568px;
+    margin-top: -120px;
+    padding-bottom: 150px;
+  }
 `;
 
 export const StyledLink = styled(Link)`
@@ -66,5 +72,10 @@ export const NavElement = styled.h1`
 
   @media screen and (max-width: 740px) {
     font-size: 130px;
+  }
+
+  @media screen and (max-width: 500px) {
+    font-size: 70px;
+    margin-bottom: -20px;
   }
 `;

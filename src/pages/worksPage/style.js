@@ -17,4 +17,8 @@ export const WorksContainerStyle = styled.div`
   @media screen and (max-width: 740px) {
     height: 900px;
   }
+
+  @media screen and (max-width: 500px) {
+    height: 568px;
+  }
 `;

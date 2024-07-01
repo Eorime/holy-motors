@@ -22,6 +22,12 @@ export const Container = styled.div`
     align-items: center;
     gap: 44px;
   }
+
+  @media screen and (max-width: 500px) {
+    gap: 20px;
+    margin-top: -20px;
+    padding-bottom: 25px;
+  }
 `;
 
 export const StoryLogo = styled.img`
@@ -33,5 +39,9 @@ export const StoryLogo = styled.img`
 
   @media screen and (max-width: 740px) {
     max-width: 180px;
+  }
+
+  @media screen and (max-width: 500px) {
+    max-width: 100px;
   }
 `;
