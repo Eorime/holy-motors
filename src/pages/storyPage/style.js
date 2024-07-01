@@ -22,7 +22,8 @@ export const StoryContainer = styled.div`
     background-position: calc(50% + 215px) calc(50% - 50px);
   }
 
-  @media screen and (max-width: 368px) {
-    height: 568px;
+  @media screen and (max-width: 740px) {
+    height: 900;
+    background-position: calc(50% + 15px) calc(50% - 50px);
   }
 `;

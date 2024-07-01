@@ -26,6 +26,7 @@ export const ImageWrapper = styled.div`
 
   @media screen and (max-width: 1500px) {
     height: 944px;
+    height: 800px;
   }
 `;
 
@@ -38,7 +39,11 @@ export const WorksImage = styled.img`
   }
 
   @media screen and (max-width: 995px) {
-    height: 944px;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 740px) {
+    height: 100%;
   }
 `;
 
@@ -95,6 +100,11 @@ export const WorksMainPar = styled.p`
     top: 38%;
     padding-left: 40px;
   }
+
+  @media screen and (max-width: 740px) {
+    font-size: 20px;
+    top: 48%;
+  }
 `;
 
 export const WorksParagraph = styled.p`
@@ -120,6 +130,11 @@ export const WorksParagraph = styled.p`
     top: 40%;
     padding-left: 40px;
   }
+
+  @media screen and (max-width: 740px) {
+    font-size: 20px;
+    top: 50%;
+  }
 `;
 
 export const WorksNameContainer = styled.div`
@@ -141,6 +156,10 @@ export const WorksNameContainer = styled.div`
     right: -2px;
     bottom: -2%;
   }
+
+  @media screen and (max-width: 740px) {
+    bottom: -1.5%;
+  }
 `;
 
 export const WorksName = styled.h1`
@@ -155,6 +174,11 @@ export const WorksName = styled.h1`
   @media screen and (max-width: 1500px) {
     font-size: 60px;
     max-width: 312px;
+  }
+
+  @media screen and (max-width: 740px) {
+    max-width: 230px;
+    font-size: 45px;
   }
 `;
 
@@ -191,6 +215,12 @@ export const SliderButton = styled.button`
     font-size: 24px;
     top: 95.5%;
   }
+
+  @media screen and (max-width: 740px) {
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+  }
 `;
 
 export const PrevButton = styled(SliderButton)`
@@ -203,6 +233,10 @@ export const PrevButton = styled(SliderButton)`
   @media screen and (max-width: 995px) {
     right: 58%;
   }
+
+  @media screen and (max-width: 740px) {
+    right: 70%;
+  }
 `;
 
 export const NextButton = styled(SliderButton)`
@@ -214,6 +248,10 @@ export const NextButton = styled(SliderButton)`
 
   @media screen and (max-width: 995px) {
     right: 50%;
+  }
+
+  @media screen and (max-width: 740px) {
+    right: 60%;
   }
 `;
 
@@ -228,6 +266,10 @@ export const SliderContainer = styled.div`
 
   @media screen and (max-width: 1500px) {
     bottom: 920px;
+  }
+
+  @media screen and (max-width: 740px) {
+    top: 4%;
   }
 `;
 
@@ -249,6 +291,10 @@ export const SliderBar = styled.div`
   @media screen and (max-width: 995px) {
     width: 150px;
   }
+
+  @media screen and (max-width: 740px) {
+    width: 80px;
+  }
 `;
 
 export const SliderCounter = styled.p`
@@ -269,5 +315,9 @@ export const SliderCounter = styled.p`
     font-size: 40px;
     top: 90.5%;
     left: 20px;
+  }
+
+  @media screen and (max-width: 740px) {
+    top: 88.5%;
   }
 `;

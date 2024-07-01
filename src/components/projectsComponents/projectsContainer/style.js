@@ -7,6 +7,7 @@ export const MainContainer = styled.div`
   flex-direction: row;
   padding: 80px 40px;
   justify-content: center;
+  align-items: center;
   gap: 40px;
 
   @media screen and (max-width: 1500px) {
@@ -43,6 +44,12 @@ export const ProjectsHeader = styled.h1`
     max-width: 570px;
     margin-top: -15px;
   }
+
+  @media screen and (max-width: 740px) {
+    max-width: 430px;
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
 `;
 
 export const ProjectsParagraph = styled.p`
@@ -63,6 +70,12 @@ export const ProjectsParagraph = styled.p`
     max-width: 728px;
     font-size: 26px;
   }
+
+  @media screen and (max-width: 740px) {
+    max-width: 430px;
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
 `;
 
 export const ProjectsSliderContainer = styled.div`
@@ -78,6 +91,11 @@ export const ProjectsSliderContainer = styled.div`
   @media screen and (max-width: 995px) {
     width: 728px;
     height: 510px;
+  }
+
+  @media screen and (max-width: 740px) {
+    width: 450px;
+    height: 380px;
   }
 `;
 
@@ -148,6 +166,12 @@ export const SliderButton = styled.button`
     font-size: 18px;
     top: 91.8%;
   }
+
+  @media screen and (max-width: 740px) {
+    height: 30px;
+    width: 30px;
+    top: 93%;
+  }
 `;
 
 export const PrevButton = styled(SliderButton)`
@@ -159,6 +183,10 @@ export const PrevButton = styled(SliderButton)`
 
   @media screen and (max-width: 995px) {
     right: 240px;
+  }
+
+  @media screen and (max-width: 740px) {
+    right: 230px;
   }
 `;
 
@@ -203,6 +231,10 @@ export const SliderBar = styled.div`
     height: 4px;
     width: 200px;
   }
+
+  @media screen and (max-width: 740px) {
+    width: 120px;
+  }
 `;
 
 export const SliderCounter = styled.p`
@@ -216,5 +248,9 @@ export const SliderCounter = styled.p`
 
   @media screen and (max-width: 1500px) {
     top: 82%;
+  }
+
+  @media screen and (max-width: 740px) {
+    top: 78%;
   }
 `;

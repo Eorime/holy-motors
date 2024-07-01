@@ -26,8 +26,9 @@ export const NavContainer = styled.div`
     height: 1024px;
   }
 
-  @media screen and (max-width: 368px) {
-    height: 568px;
+  @media screen and (max-width: 740px) {
+    height: 900px;
+    padding-bottom: 20px;
   }
 `;
 
@@ -61,5 +62,9 @@ export const NavElement = styled.h1`
 
   @media screen and (max-width: 995px) {
     font-size: 160px;
+  }
+
+  @media screen and (max-width: 740px) {
+    font-size: 130px;
   }
 `;

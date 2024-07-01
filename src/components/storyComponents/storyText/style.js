@@ -47,6 +47,10 @@ export const StorytHeader = styled.h1`
     margin-bottom: 2px;
     margin-top: 560px;
   }
+
+  @media screen and (max-width: 740px) {
+    font-size: 80px;
+  }
 `;
 
 export const StorySubHeader = styled.h6`
@@ -68,6 +72,11 @@ export const StorySubHeader = styled.h6`
     margin-top: 20px;
     margin-bottom: -35px;
   }
+
+  @media screen and (max-width: 740px) {
+    max-width: 460px;
+    font-size: 28px;
+  }
 `;
 
 export const StoryParagraph = styled.p`
@@ -84,5 +93,9 @@ export const StoryParagraph = styled.p`
   @media screen and (max-width: 995px) {
     font-size: 24px;
     max-width: 650.6px;
+  }
+
+  @media screen and (max-width: 740px) {
+    max-width: 460px;
   }
 `;

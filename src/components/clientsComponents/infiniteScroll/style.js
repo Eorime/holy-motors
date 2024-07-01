@@ -82,4 +82,8 @@ export const ClientLogo = styled.img`
   @media screen and (max-width: 995px) {
     max-width: 180px;
   }
+
+  @media screen and (max-width: 740px) {
+    max-width: 90px;
+  }
 `;
